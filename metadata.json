@@ -1,0 +1,6 @@
+{
+  "name": "Segunda División",
+  "description": "Un marketplace de artículos de fútbol de segunda mano para aficionados, diseñado con estética deportiva.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

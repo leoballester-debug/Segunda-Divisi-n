@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-sans), sans-serif;
+  --font-body: var(--font-body), sans-serif;
+}
+
+@layer utilities {
+  .chromatic-shadow {
+    box-shadow: 0 4px 20px rgba(5, 95, 252, 0.08);
+  }
+  .chromatic-shadow-green {
+    box-shadow: 0 4px 20px rgba(16, 185, 129, 0.12);
+  }
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
